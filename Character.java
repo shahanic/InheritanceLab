@@ -27,7 +27,7 @@ public class Character {
 
 
 
-      // Method that displays the
+      // Method that displays the stats
          public void displayStatus(){
 
          System.out.println("Character Name: " + this.characterName);
