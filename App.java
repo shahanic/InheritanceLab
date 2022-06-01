@@ -47,7 +47,7 @@ public class App {
 
         //turn 2
         Saruman.frostBite(Merlin); // Merlin HP deducted
-        Merlin.fireStorm(Saruman);  //Merlin HP and MP increases
+        Merlin.fireStorm(Saruman);  //Saruman HP deducted
 
             System.out.println("\nDisplaying Stats: ");
             //Display both of their stats
@@ -55,7 +55,7 @@ public class App {
             Saruman.displayStatus();
         //turn 3
         Saruman.heal();// Saruman healed
-        Merlin.thunderBolt(Saruman);
+        Merlin.thunderBolt(Saruman); //Saruman HP deducted
 
             System.out.println("Displaying Stats: \n");
             //Display both of their stats
