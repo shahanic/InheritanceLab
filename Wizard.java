@@ -12,7 +12,7 @@ public class Wizard extends Character {
          }
 
          public void fireStorm(Character enemyCharacter){
-         System.out.println(super.characterName + " attacks" + enemyCharacter.characterName + " with fireStorm (Damage - 50)");
+         System.out.println(super.characterName + " attacks" + enemyCharacter.characterName + " with fireStorm (Damage - 40)");
               int damagePoints = 40;
               int manaCost = 60;
          damageTarget(enemyCharacter, damagePoints, manaCost);
